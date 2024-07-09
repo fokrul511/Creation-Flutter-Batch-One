@@ -1,5 +1,14 @@
 main() {
-  const String name = 'Fokrul';
+ List studentList = ['fokrul'];
+ print(studentList);
 
-  print(name);
+ studentList.add('taybe');
+ print(studentList);
+
+ studentList.addAll(['dipon', 'sha']);
+
+ studentList.remove('taybe');
+ print(studentList);
+
+
 }
