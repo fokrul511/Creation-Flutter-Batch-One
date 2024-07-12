@@ -1,7 +1,16 @@
 void main(){
-  // for loop
-  for(int i =1; i<=10; i=i+1) {
-    print(i.toString());
-  }
+  int x = 20;
+  int y = 30;
+  var add = x + y;
+  var sub = x - y;
+  var mul = x * y;
+  var div = x / y;
+  var mod = x % y;
+  print(add);
+  print(sub);
+  print(mul);
+  print(div);
+  print(mod);
+
 
 }
